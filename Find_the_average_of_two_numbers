@@ -1,0 +1,7 @@
+s=input()
+y=[]
+y=s.split()
+x=int(y[0])
+k=int(y[1])
+average=(x+k)/2.0
+print("%.4f"%average)
