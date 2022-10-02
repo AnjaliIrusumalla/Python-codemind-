@@ -1,0 +1,8 @@
+x=int(input())
+f=0
+for i in range(x):
+    if(i*i==x):
+        print("True")
+        f=1
+if(f==0):
+    print("False")
