@@ -1,0 +1,17 @@
+import math
+def prime(n):
+  m=math.sqrt(n)
+  k=int(m)
+  if(n<=1):
+    return False
+  for i in range(2,k+1):
+    if(n%i==0):
+      return False
+  return True
+x=int(input())
+y=int(input())
+c=0
+for i in range(x,y+1):
+  if(prime(i)):
+    c=c+1
+print(c)
