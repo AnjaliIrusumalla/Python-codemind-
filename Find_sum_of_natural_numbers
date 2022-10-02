@@ -1,0 +1,4 @@
+x=int(input())
+m=(x*(x+1))/2
+n=int(m)
+print(n)
