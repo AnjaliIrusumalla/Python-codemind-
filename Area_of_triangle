@@ -1,0 +1,9 @@
+x=input()
+y=[]
+y=x.split()
+a=int(y[0])
+b=int(y[1])
+c=int(y[2])
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print('%0.2f'%area)
